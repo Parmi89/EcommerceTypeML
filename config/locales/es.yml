@@ -1,0 +1,92 @@
+es:
+  app_name: 'Vendelo'
+  meta_title: 'Compra y vende productos de segunda mano'
+  activerecord:
+    models:
+      product: Producto
+      user: 'Usuario'
+      category: 'Categoria'
+    attributes:
+      product:
+        title: 'Título'
+        description: 'Descripción'
+        price: 'Precio'
+        photo: 'Foto'
+      user:
+        email: 'Correo electronico'
+        username: 'Usuario'  
+        password: 'Contraseña'  
+      category:
+        name: 'Nombre'  
+  common:
+    confirm: '¿Estás seguro?'
+    back: 'Volver'
+    not_logged_in: 'Tienes que hacer login o crearte una cuenta'
+    not_authorized: 'No tienes permiso para esta accion'
+    not_found: 'No se ha encontrado'
+  shared:
+    header:
+      add: 'Añadir producto'
+      categories: 'Categorias'
+      login: 'Acceso'
+      register: 'Registro'
+      logout: 'Salir' 
+      confirm: '¿Estás seguro?' 
+      favorites: 'Favoritos'   
+  authentication:
+    user:
+      create:
+        created: 'Su cuenta se ha creado!'
+    sessions:
+      create:
+        created: 'Bienvenido!'
+        failed: 'Login inválido!' 
+      destroy:
+        destroyed: 'Tu sesión ha terminado! Hasta la próxima!!!'  
+  products:
+    edit:
+      title: 'Editar producto'
+    new:
+      title: 'Añadir producto'
+    index:
+      title: 'Productos:'
+      all: 'Todos'
+      min_price: 'Precio minimo'
+      max_price: 'Precio maximo'
+      query_text: '¿Que estas buscando?'
+      newest: Añadido recientemente'
+      expensive: 'Mas caros'
+      cheapest: 'Mas baratos'
+    show:
+      edit: 'Editar producto'
+      delete: 'Borrar producto'
+      view_more_products: 'Ver mas productos de %{username}'
+    create:
+      created: 'Tu producto se ha creado correctamente'
+    update:
+      updated: 'Tu producto se ha actualizado correctamente'
+    destroy:
+      destroyed: 'Tu producto se ha eliminado correctamente'
+    favorite:
+      like: 'Me gusta'
+      i_dont_like: 'Ya no me gusta'
+  categories:
+    category:
+      edit: 'Editar'
+      delete: 'Borrar'
+    index:
+      title: 'Categorías'
+      new: 'Añadir categoría'
+    edit:
+      title: 'Editar categoría'
+    create:
+      created: 'Tu categoría se ha creado correctamente'
+    update:
+      updated: 'Tu categoría se ha actualizado correctamente'
+    destroy:
+      destroyed: 'Tu categoría se ha eliminado correctamente'
+    new:
+      title: 'Añadir categoría'   
+  favorites:
+    index:
+      title: 'Mis productos favoritos'        
